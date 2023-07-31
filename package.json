@@ -1,0 +1,52 @@
+{
+    "name": "node-mysql-registration-login-api",
+    "version": "1.0.0",
+    "description": "Node.js + MySQL API for User Management, Authentication and Registration",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cornflourblue/node-mysql-registration-login-api.git"
+    },
+    "scripts": {
+        "start": "node ./server.js",
+        "start:dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "@pinata/sdk": "^1.1.23",
+        "@sendgrid/mail": "^7.6.1",
+        "@taquito/signer": "^11.2.0",
+        "@taquito/taquito": "^11.2.0",
+        "@taquito/utils": "^11.2.0",
+        "aes256": "^1.1.0",
+        "async-mutex": "^0.3.2",
+        "base-path-converter": "^1.0.2",
+        "bcryptjs": "^2.4.3",
+        "bip39": "^3.0.4",
+        "body-parser": "^1.19.0",
+        "bs58check": "^2.1.2",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.1",
+        "express-jwt": "^6.0.0",
+        "fs": "^0.0.1-security",
+        "ipfs-http-client": "^56.0.0",
+        "joi": "^17.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "libsodium-wrappers": "^0.7.9",
+        "multer": "^1.4.4",
+        "mysql2": "^2.1.0",
+        "node-schedule": "^2.1.0",
+        "pbkdf2": "^3.1.2",
+        "recursive-fs": "^2.1.0",
+        "rootpath": "^0.1.2",
+        "sequelize": "^6.3.4",
+        "stream": "^0.0.2",
+        "stripe": "^8.200.0",
+        "twilio": "^3.73.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

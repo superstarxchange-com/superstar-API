@@ -1,0 +1,12 @@
+{
+    "nftID": "str", 
+    "name": "str", 
+    "description": "str", 
+    "symbol": "str", 
+    "creator": "str",
+    "editions": "str",
+    "mainAsset" : "ipfshash",
+    "thumbnail" : "ipfshash",
+    "certificate" : "ipfshash",
+    "moviePoster ": "ipfshash"    
+}

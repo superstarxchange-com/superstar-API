@@ -1,0 +1,10 @@
+﻿{
+  "database": {
+    "host": "startxchange.cwqskw72s2mz.ap-south-1.rds.amazonaws.com",
+    "port": "3306",
+    "user": "admin",
+    "password": "starxchange",
+    "database": "xchange"
+  },
+  "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}

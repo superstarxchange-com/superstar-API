@@ -1,0 +1,47 @@
+/*Environment*/
+require("dotenv").config();
+const NODE_ENV = process.env.NODE_ENV;
+const PINATA_API_KEY = process.env.PINATA_API_KEY;
+const PINATA_SECRET_KEY = process.env.PINATA_SECRET_KEY;
+const ADMIN_WALLET_PRIVATE_KEY = process.env.ADMIN_WALLET_PRIVATE_KEY;
+const DATABASE_HOST = process.env.DATABASE_HOST;
+const DATABASE_PORT = 3306;
+const DATABASE_USER = process.env.DATABASE_USER;
+const DATABASE_PASSWORD = process.env.DATABASE_PASSWORD;
+const DATABASE_NAME = process.env.DATABASE_NAME;
+
+/*Constants*/
+const RPC_URL = "https://mainnet.smartpy.io";
+const ADMIN_WALLET_PKH = "tz1Rar73znCT2xv9qNcrQCLrDgLgeV7jH3Qy";
+const CONTRACT_ADDRESS_FA2 = process.env.CONTRACT_ADDRESS_FA2;
+const CONTRACT_ADDRESS_MARKET_PLACE = process.env.CONTRACT_ADDRESS_MARKET_PLACE;
+const CONTRACT_ADDRESS_AUCTION_PLACE = "";
+const OP_CONFIRMATIONS = 1;
+const DEFAULT_PASSPHRASE = process.env.DEFAULT_PASSPHRASE;
+const ACCOUNT_PREFIX = {
+  tz1: new Uint8Array([6, 161, 159]),
+  KT: new Uint8Array([2, 90, 121]),
+  edsk: new Uint8Array([43, 246, 78, 7]),
+  edpk: new Uint8Array([13, 15, 37, 217]),
+};
+const MNEMONIC_LENGTH = 160;
+
+module.exports = {
+  NODE_ENV,
+  PINATA_API_KEY,
+  PINATA_SECRET_KEY,
+  ADMIN_WALLET_PRIVATE_KEY,
+  DATABASE_HOST,
+  DATABASE_PORT,
+  DATABASE_USER,
+  DATABASE_PASSWORD,
+  DATABASE_NAME,
+  RPC_URL,
+  CONTRACT_ADDRESS_FA2,
+  CONTRACT_ADDRESS_MARKET_PLACE,
+  CONTRACT_ADDRESS_AUCTION_PLACE,
+  OP_CONFIRMATIONS,
+  DEFAULT_PASSPHRASE,
+  ACCOUNT_PREFIX,
+  MNEMONIC_LENGTH,
+};
